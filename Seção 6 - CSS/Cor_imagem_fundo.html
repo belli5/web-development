@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cores e imagem de fundo</title>
+
+    <style>
+
+        /*.fundo{
+            background-color: blue;
+            color: white;
+        }*/
+
+        h1{
+            background-image: url('imagens/yoshi.png');
+
+            /* repeat-x, repeat-y, no-repeat, repeat*/
+            background-repeat: repeat-x;
+
+            /*fixed scrool*/
+            background-attachment: scroll;
+
+            /*
+            primeiro valor: left, center, right
+            segundo valor: top, center, bottom
+            */
+            background-position: center center;
+        }
+
+        .fundo{
+            background: blue url('imagens/yoshi.png')
+            repeat-x fixed center top;
+        }
+
+    </style>
+
+</head>
+<body class="fundo">
+    
+    <h1 class="fundo">Conteudo legal</h1>
+
+    <p>Lorem ipsum dolor sit, amet consectetur 
+        adipisicing elit. Tempora nulla nemo sint 
+        dignissimos tempore illum molestiae, quasi 
+        explicabo earum consequuntur excepturi sunt 
+        in doloremque quod voluptas, vel repudiandae
+         omnis magni? Lorem ipsum dolor sit amet 
+         consectetur adipisicing elit. Et, ab? 
+         Blanditiis quaerat, cupiditate ipsam non 
+         repudiandae nobis at odio voluptate magni 
+         aliquam distinctio rem doloribus beatae 
+         architecto? Dicta, reprehenderit quasi.</p>
+
+         <br><br><br><br><br><br><br><br><br>
+         <br><br><br><br><br><br><br><br><br><br>
+         <br><br><br><br><br><br><br><br><br><br>
+         <br><br><br><br><br><br><br><br>
+
+
+    <p>Lorem ipsum dolor sit amet consectetur, 
+        adipisicing elit. Corporis sit accusantium 
+        perspiciatis dolore ab, blanditiis sunt? 
+        Id repellat eaque, nam quasi at sit enim 
+        minus dicta totam, earum corrupti dolor. 
+        Lorem ipsum dolor, sit amet consectetur 
+        adipisicing elit. Magni iste quae quod nisi 
+        consectetur odit tempora quam magnam eaque 
+        quia veritatis corporis, exercitationem 
+        temporibus facilis repudiandae suscipit 
+        earum. Qui, explicabo.</p>
+
+</body>
+</html>
