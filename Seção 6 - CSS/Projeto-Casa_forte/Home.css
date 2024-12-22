@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+#menu{
+    border: 1px hidden red;
+    background: #088A08 ;
+    padding: 40px;
+}
+
+h1{
+    color: #fff;
+    text-align: center;
+    position: absolute;
+    top: 120px;
+    left: 600px;
+    font: bold 40px arial;
+}
+
+.links{
+    border: 1px hidden red;
+    text-align: center;
+    position: relative;
+    top: 10px;
+    left: 550px;
+    font: 25px arial;
+    text-decoration: none;
+    margin: 15px;
+}
+
+#menu a:link, #menu a:visited{
+    color: #fff;
+}
+
+#menu a:hover{
+    color: #088A08;
+    background: #fff;
+}
+
+#conteudo{
+    border: 1px hidden red;
+    padding: 30px;
+    margin: 0px auto;
+}
+
+#postagens{
+    width: 660px;
+    float: left;
+    margin: 0px 150px;
+}
+
+#postagens a:link, #postagens a:visited{
+    color: #088A08;
+}
+
+#area_lateral{
+    width: 240px;
+    float: right;
+    margin: 120px 120px;
+}
+
+.conteudo_lateral{
+    background: white;
+    padding: 10px;
+    width: 190px;
+    margin-bottom: 20px;
+}
+
+#area_lateral a:link, #area_lateral a:visited{
+    color: #088A08;
+}
+
+h2{
+    color: white;
+    background: #088A08;
+    margin: 0px;
+}
+
+h3{
+    font: bold 40px arial;
+    color: #0B610B;
+}
+
+.inicio_historia{
+    font: 15px arial;
+}
+
+.sobre{
+    border: 1px hidden red;
+    font: 20px arial;
+    width: 1050px;
+    padding: 0px 30px;
+}
+
+.roda_pe{
+    background: gray;
+    text-align: center;
+    padding: 15px;
+    font: bold 15px arial;
+    position: absolute;
+    bottom: -510px;
+    width: 100%;
+}
+
+p{
+    font: arial 60px;
+}
