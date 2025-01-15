@@ -1,0 +1,16 @@
+
+body{
+    color: red;
+}
+
+#pagina p{
+    color: green !important;
+}
+
+#pagina p{
+    color: blue;
+}
+
+h2{
+    color: blue;
+}
